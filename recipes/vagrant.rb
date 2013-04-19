@@ -1,8 +1,8 @@
 include_recipe "pivotal_workstation::virtualbox"
 
 dmg_package "Vagrant" do
-  source "http://files.vagrantup.com/packages/be0bc66efc0c5919e92d8b79e973d9911f2a511f/Vagrant-1.0.5.dmg"
-  checksum "d9ccdd454389f5830a8218c066c8f54c15d9d32ca6060bc42677b495aad08003"
+  source "http://files.vagrantup.com/packages/87613ec9392d4660ffcb1d5755307136c06af08c/Vagrant.dmg"
+  checksum "61820ede170a709a9d3b041269bf7862ddee6f5e6f7fffcb3cdb80e130d842f5"
   action :install
   type "pkg"
   owner WS_USER
